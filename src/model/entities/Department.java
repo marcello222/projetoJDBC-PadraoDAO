@@ -46,7 +46,7 @@ public class Department implements Serializable {
 			return true;
 		if (obj == null)
 			return false;
-		if (getClass() != obj.getClass())
+	 	if (getClass() != obj.getClass())
 			return false;
 		Department other = (Department) obj;
 		if (id == null) {
